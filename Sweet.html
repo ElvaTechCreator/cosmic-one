@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>小幸运 哈哈~</title>
+    <style>  
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      background-color:pink;
+      text-align: center;
+      padding:40px;
+    ">
+      <img src="http://p1.itc.cn/images01/20201217/79cd43e3ecdf4c729bd910e408b0ca27.jpeg" alt="Cosmic" width="100px" height="100px">
+    </div>
+    <div style="
+      max-width:700px;
+      margin:30px auto;
+      padding:15px;
+      line-height:1.7;
+    ">
+      <p>我是一个充满热情和活力的人，总是期待着生活中的每一个新发现。小时候，我就喜欢探索周围的一切，无论是自然风景还是书本中的知识，我总能从中找到乐趣。如今，这份好奇心依然伴随着我，不断驱使我去学习新的技能、结交新的朋友。我相信，保持对生活的热爱是保持快乐的秘诀。</p>
+      <p>在我的日常生活中，我喜欢简单而充实的时光。比如，安静的午后泡上一杯香醇的咖啡，或是挑一本书沉浸其中；又或者和朋友们围坐在一起，畅聊那些有趣的经历和人生的感悟。除此之外，我也喜欢用镜头记录生活中的美好瞬间，摄影已经成为了我表达自我的另一种方式。我相信，生活中的每一个细节都值得我们去欣赏和珍藏。</p>
+      <p>最终，我希望通过我的生活方式和点滴记录，能够与更多的人分享内心的感动和美好。我坚信，我们每个人的生活虽然独特，却也有着相似的情感和故事。希望我的分享，能让你感受到那份简单的快乐与温暖，拉近我们彼此之间的距离。</p>
+    </div>
+    <div style="
+      background-color:#f1f1f1;
+      text-align: center;
+      padding:28px;
+      font-size:12px;
+      position: fixed; bottom: 0; left: 0; width: 100%;
+    ">
+      <p>我的网站</p>
+      <a href="https://www.bilibili.com/video/BV1pRsEejEaU?vd_source=4ca7f60f882eff445aaaea8770c4e1b8">友情链接</a>
+    </div>
+    <button id="playButton" style="
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+    ">
+    </button>
+    <audio id="myAudio" controls>
+      <source src="https://elvatechcreator.github.io/cosmic-one/duideren.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+      document.getElementById('playButton').addEventListener('click', function() {
+        var audio = document.getElementById("myAudio");
+        audio.play();
+      });
+    </script>
+  </body>
+</html>
